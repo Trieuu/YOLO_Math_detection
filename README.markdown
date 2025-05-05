@@ -30,7 +30,9 @@ As the model size is large to upload to github, please download the ```best.pt``
 
    **4.** Then the YOLO model will perform the Math Equation detection, result in the ```.txt``` with the same name of the pdf (e.g ```./Super_Math_notation/Super_Math_notation.txt```). This txt file include many line, each line will look like:
     
-    ```0.9036 1972.1656 2192.7507 2242.2212 2261.0522```
+   ```
+   0.9036 1972.1656 2192.7507 2242.2212 2261.0522
+   ```
 
    The fist numebr is the confidence of the box for the detecting region as a math equation.
 
@@ -40,11 +42,15 @@ As the model size is large to upload to github, please download the ```best.pt``
     
    Orginal:
     
-    ```0.9036 1972.1656 2192.7507 2242.2212 2261.0522``` 
+   ```
+    0.9036 1972.1656 2192.7507 2242.2212 2261.0522
+   ``` 
     
    Replace:
     
-    ```1 1972.1656 2192.7507 2242.2212 2261.0522```
+   ```
+   1 1972.1656 2192.7507 2242.2212 2261.0522
+   ```
 
    Then, we save this file with name ```index.txt``` (e.g ```./Super_Math_notation/index.txt```)
 
