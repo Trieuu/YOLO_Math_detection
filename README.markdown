@@ -1,3 +1,7 @@
+# Notice
+
+As the model size is large to upload to github, please download the ```best.pt``` model in the ```model.txt``` link.
+
 # Repo Structure
 
 - ```best.pt```: YOLO model used to detect the Math Equation in a given PDF
